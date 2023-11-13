@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065c7558bff643143b73d213cb9a6890, type: 3}
+  m_Name: Mountain
+  m_EditorClassIdentifier: 
+  _noise:
+    _octaves:
+    - frequency: 5
+      height: 10
+    - frequency: 10
+      height: 100
+    - frequency: 1
+      height: 0.01
+    _redistribution: 2.1
+  _startLayerHandler: {fileID: 11400000, guid: ec0a812b53b1c5649acb865a3f4697ac, type: 2}
+  _defaultBlock: 1

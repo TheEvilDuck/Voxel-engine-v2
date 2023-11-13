@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b6f4edfd9c97a4290303b59aa67442, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  _biomes:
+  - {fileID: 11400000, guid: 5bd9abf9d4dfe2d4983b6caa13e4500f, type: 2}
+  - {fileID: 11400000, guid: 89ccc9c207107eb479e396ede37fee21, type: 2}
+  _maps:
+  - _name: HeightMap
+    _map:
+      _octaves:
+      - frequency: 28.06
+        height: 16.67
+      - frequency: 3.24
+        height: 1.98
+      - frequency: 1.53
+        height: 1.16
+      - frequency: 41.23
+        height: 0.33
+      - frequency: 21.92
+        height: 0.01
+      _redistribution: 0.01
+    _affects:
+    - _biome: {fileID: 11400000, guid: 89ccc9c207107eb479e396ede37fee21, type: 2}
+      _value: 0.63
+      _multiplier: 24
+    - _biome: {fileID: 11400000, guid: 5bd9abf9d4dfe2d4983b6caa13e4500f, type: 2}
+      _value: -0.2
+      _multiplier: 38
+  _seed: 0

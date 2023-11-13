@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065c7558bff643143b73d213cb9a6890, type: 3}
+  m_Name: Plane
+  m_EditorClassIdentifier: 
+  _noise:
+    _octaves:
+    - frequency: 0.12
+      height: 8.34
+    - frequency: 8.86
+      height: 12.38
+    - frequency: 0.33
+      height: 0.24
+    - frequency: 0.12
+      height: 0.06
+    - frequency: 4.65
+      height: 3.87
+    _redistribution: 0.5
+  _startLayerHandler: {fileID: 11400000, guid: 58f8532d414dab642a2795f2cd737443, type: 2}
+  _defaultBlock: 2
